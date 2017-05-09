@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+function aa(a=1,...b){
+	console.log(a,"  ",b,">>" , arguments);
+	for(let i in b)
+		{
+		console.log(i," ", b[i]);
+		}
+	console.log("----");
+}
+aa();
+aa(100);
+aa(100,200);
+aa(8,4,3);
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

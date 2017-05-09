@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	// 1. 함수 선언식
+	// 내부적으로 함수명에 해당되는 변수가 생성됨 , 컴파일 타임에 수행 함 
+	console.log(a);
+	a();
+	function a() {
+		console.log("dddd");
+
+	}
+
+	//2. 함수 표현식 
+	// x 는 실행시 만들어짐!! 
+	var x = function() {
+
+		console.log("2222");
+		return function() {
+			
+		}
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>

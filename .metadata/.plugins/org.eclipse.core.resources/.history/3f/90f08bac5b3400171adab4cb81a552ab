@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function aaa() {
+		console.log("Dddd");
+	}
+	
+	var tt = aaa;
+	tt();
+	aaa();
+	
+	function bbb()
+	{
+		return tt;
+	}
+	
+	
+	
+	var kk=bbb();
+	kk();
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

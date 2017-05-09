@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+var xx=[];
+console.log(xx[Symbol.iterator]);
+
+var xx2={}; // json 객체 
+console.log(xx2[Symbol.iterator]);
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
