@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+
+	function* a(k,k2)
+	{
+	console.log("1");
+		yield k+k2;
+		yield "홍길동";
+		console.log("end");
+	};
+	var xx= a(10,20);
+	
+	console.log(xx.next());
+	console.log(xx.return());
+	
+	console.log(xx.next());
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

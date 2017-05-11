@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+// 1. 일반적인 경우 
+var x ={name:"홍길동 ",age:20};
+var x2 =x['name'];
+var x3 = x['age'];
+console.log(x,x2,x3);
+console.log(x.name, x.age);
+// 1. destructuring 
+let {name,age} = {name:"홍길동",age:20};
+
+console.log(name,age);
+
+let y, y2;
+({y,y2}={y:"홍길동",y2:20});
+console.log(y,y2);
+
+let z,z2,z3;
+({z,z2,z3="zzz"}={z:"홍길동",z2:20});// 기본값 
+console.log(z,z2,z3);
+
+// 변수 이름 바꾸기 
+let kk,kk2;
+({kk,kk2}={x:100,y:200});
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

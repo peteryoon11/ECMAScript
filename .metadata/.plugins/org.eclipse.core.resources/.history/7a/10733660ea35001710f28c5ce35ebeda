@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+
+	function* a()
+	{
+		console.log("1121");
+		console.log("1122");
+		console.log("1124");
+		console.log("1125");
+		
+	};
+	var xx= a();
+	
+	xx.next();
+	console.log(xx);
+	console.log(a);
+	console.log(typeof xx);
+	console.log(typeof a);
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

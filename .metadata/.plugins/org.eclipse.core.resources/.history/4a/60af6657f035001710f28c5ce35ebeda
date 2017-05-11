@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+
+// 1. 일반적인
+var x = [10,20];
+var x2 = x[0];
+var x3=x[1];
+
+console.log(x,x2,x3);
+
+//1. destructuring
+var [k,k2]=[10,20];
+
+console.log(k,k2);
+
+var e,e2;
+[e,e2]=[10,20];
+
+console.log(e,e2);
+console.log("ddd");
+function a([q,q2,q3]){
+/* 	[c,c2,c3]=[b[0],b[1],b[2]];
+	console.log(c,c2,c3);
+ */
+ console.log(q,q2,q3);
+ }
+a([10,20,30]);
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

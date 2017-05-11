@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+// 1. 일반적인 함수
+var aa=function(x){
+	console.log(x);
+}
+aa(11);
+var aa2 =(x)=>{
+	console.log(x)
+};
+aa2(15);
+</script>
+</head>
+<body>
+
+</body>
+</html>

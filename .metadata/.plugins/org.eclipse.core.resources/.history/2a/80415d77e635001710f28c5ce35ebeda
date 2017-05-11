@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+// 1. 일반적인 함수
+var aa=function(x){
+	return x+10;
+}
+console.log(aa(11));
+
+// 2. 람다 함수 
+var aa2 =(x)=>{
+	return x+10;
+};
+console.log(aa2(11));
+
+var aa3 = x=>
+{
+	return x+10;
+	};
+	
+	console.log(aa3(11));
+
+	
+	var d = x=> x+10;
+	console.log(d(11));
+	
+
+	
+	var d2 = (x,y)=>{
+		console.log(x,y);
+		
+	};
+	
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>
