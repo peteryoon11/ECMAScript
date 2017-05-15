@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+class Employee
+{
+	constructor(name,salary)
+	{
+		this.name=name;
+		this.salary=salary;
+	}
+	setName(name)
+	{
+		this.name=name;
+		
+	}
+	setSalary(salary)
+	{
+		this.salary=salary;
+	}
+	getName()
+	{
+		return this.name;
+	}
+	getSalary()
+	{
+		return this.salary;
+	}
+	
+}// end Employee class
+
+
+
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

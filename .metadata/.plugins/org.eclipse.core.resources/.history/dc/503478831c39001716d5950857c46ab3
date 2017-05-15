@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+class Employee
+{
+	constructor(v)
+	{
+		this.v=v;
+	}
+
+	getEmployee()
+	{
+		return "hello "+this.v;
+	}
+	static getXXX()
+	{
+		return "hello2 "+this.v;
+	}
+	
+}
+	
+	console.log(Employee.getXXX());
+	
+	var emp= new Employee();
+	
+	console.log(emp.getEmployee());
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+// 1. 
+
+
+let y="hello";
+for (let i of y)
+	{
+	// 실제값전송 인덱스 값이 아니라 
+	console.log(i);
+	}
+	
+	let yy={"dd":"dd1","dd2"
+			:"dd22"};
+	
+	for (let i of yy)
+		{
+		console.log(i);
+		}
+</script>
+</head>
+<body>
+
+</body>
+</html>

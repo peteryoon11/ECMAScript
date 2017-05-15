@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+// 1. 
+
+var person={name:"홍길동",
+		"age":20,
+		setName: function (n){
+			this.name=n;	
+		},
+		getName: function (n){
+			return this.name;	
+		},
+		setAge: function (n){
+			this.age=n;	
+		},
+		getAge: function (n){
+			return this.age;	
+		}
+		
+};
+person.setName("이순신");
+	
+	console.log(person.getName()+"\t"
+			+person.getAge());
+	
+	var person2={name:"홍길동",
+			"age":20,
+			setName (n){
+				this.name=n;	
+			},
+			getName(n){
+				return this.name;	
+			},
+			setAge (n){
+				this.age=n;	
+			},
+			getAge(n){
+				return this.age;	
+			}
+			
+	};
+	person2.setName("이순신");
+		
+		console.log(person2.getName()+"\t"
+				+person2.getAge());
+	
+		
+		var person3={name:"홍길동",
+				"age":20,
+				set setName (n){
+					this.name=n;	
+				},
+				get getName(n){
+					return this.name;	
+				},
+				set setAge (n){
+					this.age=n;	
+				},
+				get getAge(n){
+					return this.age;	
+				}
+				
+		};
+		person3.setName("이순신");
+			
+			console.log(person3.getName()+"\t"
+					+person3.getAge());
+			
+
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

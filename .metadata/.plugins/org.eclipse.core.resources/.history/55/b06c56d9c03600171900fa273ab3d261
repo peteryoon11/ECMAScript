@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+var data = Array.from('geeee');
+console.log(data,data[0]);
+for(let i in data)
+	{
+	console.log(i,data[i]);
+	}
+	console.log("---------");
+	var arr2 = Array.from("hello",function(v){
+		console.log(v)
+	});
+	console.log(arr2);
+</script>
+</head>
+<body>
+
+</body>
+</html>

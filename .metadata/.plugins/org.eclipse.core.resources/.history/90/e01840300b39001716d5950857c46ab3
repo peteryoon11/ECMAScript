@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+var arr= [10,20,30,40,50];
+let x= arr.find(function (ele,idx, all){
+	console.log(ele,idx,all);
+	return ele==11;
+	this.aa();
+},function aa(){
+	console.log("obj 호출!!")
+});
+console.log(x);
+
+
+let x2= arr.find(function (ele,idx, all){
+	console.log(ele,idx,all);
+	this.fun;
+	return ele==this.searchValue;
+	//this.aa();
+},{searchValue:20,fun:function ()
+	{
+	console.log("dddd");
+	}});
+}
+console.log(x2);
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

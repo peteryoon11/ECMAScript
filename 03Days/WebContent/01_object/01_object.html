@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+// 1. 일반적인
+
+let mesg = {"onetwo":"홍길동"};
+
+console.log(mesg.onetwo);
+//2. 키 조합 
+let mesg2  = {["one"+"two"]:"홍길동"};
+
+console.log(mesg2);
+let keyName= "sport";
+let mesg3={[keyName]:"야구",[keyName+"01"]:"농구",[keyName+"02"]:"축구"};
+
+console.log(mesg3);
+
+	for(let ii in mesg3)
+		{
+		console.log(ii);
+		}
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

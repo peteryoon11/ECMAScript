@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+class Person{
+	setName(name)
+	{
+		this.name=name;
+	}
+	setAge(age)
+	{
+		this.age=age;
+	}
+	getName()
+	{
+		return this.name;
+	}
+	getAge()
+	{
+		return this.age;
+	}
+	//public Person()
+	{
+		//super();
+		console.log("Contructor!!");
+	}
+	
+	
+	let p = new Person();
+	
+}
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
