@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+function xxx(param)
+{
+	
+	return new Promise(function(resolve, reject)
+			{
+		console.log("1");
+		if(param=="ok")
+			{
+		//	resolve(100);
+			}
+		else
+			{
+		//	reject(200);
+			}
+		console.log("2");
+			});
+	}
+
+
+var result = xxx("ok");
+console.log(result);
+result.then(function(x){
+	console.log("success "+x);
+	
+	
+}, function (y){
+	console.log("fail "+y)
+	
+});
+console.log("end");
+</script>
+</head>
+<body>
+
+</body>
+</html>

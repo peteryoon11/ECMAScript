@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+function xxx(param)
+{
+	
+	return new Promise(function(resolve, reject)
+			{
+		console.log("1 3");
+//	x();
+		 if(param=="ok")
+			{
+			resolve(100);
+			}
+		else
+			{
+			reject(200);
+			}
+		console.log("2 3");
+			}
+	);
+}
+
+var promiseObject= xxx("oks");
+
+promiseObject.then((k)=>{
+	
+	console.log(k+" then");
+	
+}).catch((kk)=>{
+	
+	console.log(kk+" catch");
+});
+
+		/* 	
+result.then(function(x){
+	console.log("success "+x);
+	
+	
+}, function (y){
+	console.log("fail "+y)
+	
+}); */
+console.log("end");
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

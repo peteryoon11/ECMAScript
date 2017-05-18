@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+var map =new Map();
+console.log(map);
+map.set("one",100);
+
+map.set(true,300);
+
+var result=map.delete("one");
+var result2=map.delete("one");
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
