@@ -1,0 +1,23 @@
+cd c:ECMASCript/ECMA_workspace/
+git pull origin master 
+git add . 
+echo "test"
+read 
+echo "$REPLY"
+git commit -m "$REPLY"
+git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

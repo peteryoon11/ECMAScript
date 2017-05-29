@@ -1,7 +1,8 @@
 #Tomcat publish data
-#Wed May 17 11:47:00 KST 2017
+#Mon May 29 14:23:47 KST 2017
 org.eclipse.jst.jee.server\:01Days=C\:\\ECMASCript\\apache-tomcat-8.5.13\\webapps\\01Days
 org.eclipse.jst.jee.server\:03Days=C\:\\ECMASCript\\apache-tomcat-8.5.13\\webapps\\03Days
-org.eclipse.jst.jee.server\:02Days_01Rambda=C\:\\ECMASCript\\apache-tomcat-8.5.13\\webapps\\02Days_01Rambda
 org.eclipse.jst.jee.server\:05Days=C\:\\ECMASCript\\apache-tomcat-8.5.13\\webapps\\05Days
+org.eclipse.jst.jee.server\:02Days_01Rambda=C\:\\ECMASCript\\apache-tomcat-8.5.13\\webapps\\02Days_01Rambda
+org.eclipse.jst.jee.server\:ReactTest=C\:\\ECMASCript\\apache-tomcat-8.5.13\\webapps\\ReactTest
 org.eclipse.jst.jee.server\:04Days=C\:\\ECMASCript\\apache-tomcat-8.5.13\\webapps\\04Days

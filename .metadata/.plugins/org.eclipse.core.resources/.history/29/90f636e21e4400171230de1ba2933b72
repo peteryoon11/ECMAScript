@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+var arr=['a','b','c'];
+
+var date = arr.map(function(d,i){
+	
+	console.log(d,i);
+	return d;
+});
+
+console.log(date);
+function xxx()
+{console.log("XXXX");
+	}
+</script>
+</head>
+<body>
+<button onclick="xxx()">ok</button>
+</body>
+</html>
